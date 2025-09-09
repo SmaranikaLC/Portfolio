@@ -1,5 +1,3 @@
-# Portfolio
-Portfolio showcasing SQL, Power BI, and Excel projects in Healthcare, Procurement, and Sales domains
 # 📊 Data Analytics Portfolio – Smaranika  
 
 Welcome to my portfolio! Here I showcase projects where I applied **SQL, Power BI, and Excel** to solve business problems across **Healthcare, Procurement, and Sales domains**.  
