@@ -36,5 +36,5 @@ Welcome to my portfolio! Here I showcase projects where I applied **SQL, Power B
 ---
 
 ## 🔹 Contact  
-📧 Email: your.email@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
+📧 Email: smaranikalearning@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/lcsmaranika20/)  
