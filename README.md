@@ -10,7 +10,8 @@ Welcome to my portfolio! Here I showcase projects where I applied **SQL, Power B
 - **Tools:** SQL, Power BI  
 - **Description:** Analyzed patient outcomes, length of stay, and hospital performance.  
 - **Key Insights:** Identified cost variations and outcome trends across hospitals.  
-- ![Dashboard Screenshot](screenshot-healthcare.png)  
+- ![Dashboard Screenshot](<img width="1094" height="599" alt="Screenshot 2025-09-09 173941" src="https://github.com/user-attachments/assets/28bdb95c-1dc0-4db7-8f51-7025c8006e9f" />
+)  
 
 ---
 
