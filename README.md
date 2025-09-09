@@ -11,7 +11,7 @@ Welcome to my portfolio! Here I showcase projects where I applied **SQL, Power B
 - **Description:** Analyzed patient outcomes, length of stay, and hospital performance.  
 - **Key Insights:** Identified cost variations and outcome trends across hospitals.  
 - ### Healthcare Outcomes Dashboard – Total Hip Replacement  
-![Healthcare Dashboard](E:\Project\HealthcarePerformanceDashboard)   
+![HealthcarePerformanceDashboard](images\Cost_Comparison.png")   
 
 ---
 
