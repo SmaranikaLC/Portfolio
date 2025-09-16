@@ -1,40 +1,101 @@
-# 📊 Data Analytics Portfolio – Smaranika  
+ 🏥 Total Hip Replacement Inpatients Outcomes – SQL + Power BI Dashboard
+📌 Project Overview
 
-Welcome to my portfolio! Here I showcase projects where I applied **SQL, Power BI, and Excel** to solve business problems across **Healthcare, Procurement, and Sales domains**.  
+This project analyzes inpatient outcomes for Total Hip Replacement surgeries using SQL for data preparation and Power BI for visualization.
+The aim is to understand Length of Stay (LOS), Cost Distribution, Hospital Performance, and Readmission Trends to help hospitals improve patient care and optimize resources.
 
----
+📂 Repository Structure
+├── SQL/
+│   ├── LOS_Comparison.sql
+│   ├── Cost_Comparison.sql
+│   ├── Hospital_Profile.sql
+│   ├── Readmission_Rates.sql
+│   ├── Regional_Analysis.sql
+│   └── Time_Trend.sql
+├── Dashboards/
+│   ├── LOS_Comparison.png
+│   ├── Cost_Comparison.png
+│   ├── Hospital_Profile.png
+│   └── Readmission_Trends.png
+├── Data/
+│   └── hospital_inpatient_discharges_totalhipreplacement.csv  (sample/mock data)
+└── README.md
 
-## 🔹 Projects  
+🗂 Dataset
 
-### 1. Healthcare Outcomes Dashboard – Total Hip Replacement  
-- **Tools:** SQL, Power BI  
-- **Description:** Analyzed patient outcomes, length of stay, and hospital performance.  
-- **Key Insights:** Identified cost variations and outcome trends across hospitals.  
-- ### Healthcare Outcomes Dashboard – Total Hip Replacement  
-![HealthcarePerformanceDashboard](HealthcarePerformanceDashboard\Cost_Comparison.png")   
+Table Name: hospital_inpatient_discharges_totalhipreplacement
+Columns Used:
 
----
+PatientID
 
-### 2. Sales & Profit Analysis (AdventureWorks Dataset)  
-- **Tools:** SQL, Power BI  
-- **Description:** Built an interactive dashboard to analyze sales, profit margin %, and regional performance.  
-- **Key Insights:** Highlighted top/bottom products and AOV trends.  
-- ![Dashboard Screenshot](screenshot-sales.png)  
+HospitalID, HospitalName
 
----
+AdmissionDate, DischargeDate
 
-### 3. Procurement Analytics Reports  
-- **Tools:** SAP MM, Power BI  
-- **Description:** Vendor comparison, RFQs, stock levels, and purchase orders analysis.  
+LengthOfStay
 
----
+TotalCost
 
-## 🔹 Skills  
-- **Tools:** SQL, Power BI, Excel, SAP MM  
-- **Analytics:** Data modeling, KPIs, visualization, reporting  
-- **Domains:** Healthcare, Procurement, Sales  
+ReadmissionFlag, MortalityFlag
 
----
+Region
+
+🔍 SQL Queries → Dashboard Outcomes
+1️⃣ Length of Stay (LOS) Comparison
+
+SQL: LOS_Comparison.sql
+
+Dashboard:
+
+Insight: Identifies hospitals with the highest and lowest average LOS → shows efficiency in patient discharge management.
+
+2️⃣ Cost Comparison
+
+SQL: Cost_Comparison.sql
+
+Dashboard:
+
+Insight: Highlights variation in surgery costs between hospitals → helps identify cost-effective providers.
+
+3️⃣ Hospital Profile
+
+SQL: Hospital_Profile.sql
+
+Dashboard:
+
+Insight: Provides a hospital-wise summary → total cases, average LOS, cost, readmissions, and mortality rates.
+
+4️⃣ Readmission Trends
+
+SQL: Readmission_Rates.sql
+
+Dashboard:
+
+Insight: Tracks readmission rates → helps assess hospital care quality and post-surgery recovery success.
+
+5️⃣ Regional Analysis
+
+SQL: Regional_Analysis.sql
+
+Dashboard: (Optional screenshot)
+
+Insight: Compares outcomes by state/region → useful for policymakers and healthcare planners.
+
+6️⃣ Time Trend (Admissions & Cost Over Time)
+
+SQL: Time_Trend.sql
+
+Dashboard: (Optional screenshot)
+
+Insight: Reveals seasonality and cost patterns → supports resource planning and budgeting.
+
+🛠 Tools & Skills
+
+SQL Server / PostgreSQL → Data Extraction & Transformation
+
+Power BI → Interactive Dashboards
+
+Excel / CSV → Raw Data Handling
 
 ## 🔹 Contact  
 📧 Email: smaranikalearning@gmail.com  
